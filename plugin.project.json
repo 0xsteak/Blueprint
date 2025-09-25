@@ -1,0 +1,6 @@
+{
+  "name": "BlueprintPlugin",
+  "tree": {
+    "$path": "plugin"
+  }
+}

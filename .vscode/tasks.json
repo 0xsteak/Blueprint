@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Rojo Server",
+            "type": "shell",
+            "command": "cmd.exe /c \"rojo serve\""
+        }
+    ]
+}

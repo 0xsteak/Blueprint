@@ -1,0 +1,11 @@
+{
+  "name": "BlueprintPlugin",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "BlueprintPlugin": {
+        "$path": "plugin"
+      }
+    }
+  }
+}
