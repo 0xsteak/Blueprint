@@ -1,0 +1,6 @@
+syntax = "Luau"
+quote_style = "ForceSingle"
+collapse_simple_statement = "ConditionalOnly"
+
+[sort_requires]
+enabled = false

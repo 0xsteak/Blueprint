@@ -1,0 +1,11 @@
+[package]
+name = "0xsteak/blueprint"
+description = "A tool for easily converting Roblox instances into executable Luau code."
+version = "1.0.0"
+license = "MIT"
+authors = ["0xsteak"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+repository = "https://github.com/0xsteak/blueprint"
+
+[dependencies]

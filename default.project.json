@@ -1,0 +1,6 @@
+{
+  "name": "blueprint",
+  "tree": {
+    "$path": "lib"
+  }
+}

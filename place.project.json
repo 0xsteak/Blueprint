@@ -1,0 +1,16 @@
+{
+  "name": "Blueprint",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "blueprint": {
+        "$path": "./"
+      }
+    },
+    "ServerStorage": {
+      "BlueprintPlugin": {
+        "$path": "plugin.project.json"
+      }
+    }
+  }
+}

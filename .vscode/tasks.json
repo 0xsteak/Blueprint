@@ -1,0 +1,37 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Rojo Server",
+      "type": "shell",
+      "command": "rojo serve place.project.json",
+      "presentation": {
+        "group": "rojo",
+        "reveal": "silent",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    },
+    {
+      "label": "Start Sourcemap Watch",
+      "type": "shell",
+      "command": "rojo sourcemap --include-non-scripts --watch -o sourcemap.json place.project.json",
+      "presentation": {
+        "group": "rojo",
+        "reveal": "silent",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    },
+    {
+      "label": "Start Rojo Server & Sourcemap",
+      "type": "shell",
+      "problemMatcher": [],
+      "dependsOn": ["Start Rojo Server", "Start Sourcemap Watch"]
+    }
+  ]
+}
